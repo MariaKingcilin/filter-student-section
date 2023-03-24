@@ -1,0 +1,43 @@
+var myArr=[
+{
+	studentName:"Jack",
+	studentClass:6,
+	studentSection:"A"
+},
+{
+	studentName:"Tom",
+	studentClass:6,
+	studentSection:"A"
+},
+{
+	studentName:"Ricky",
+	studentClass:6,
+	studentSection:"B"
+},
+{
+	studentName:"John",
+	studentClass:6,
+	studentSection:"B"
+},
+{
+	studentName:"Jerry",
+	studentClass:6,
+	studentSection:"A"
+},
+{
+	studentName:"Henry",
+	studentClass:6,
+	studentSection:"B"
+},
+{
+	studentName:"Stephen",
+	studentClass:6,
+	studentSection:"A"
+}];
+myArr.filter(function (value)
+{
+	if(value.studentSection==="A")
+	{
+		console.log(value.studentName);
+	}
+});
